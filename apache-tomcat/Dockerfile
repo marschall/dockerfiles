@@ -1,4 +1,4 @@
-FROM marschall/oracle-jdk
+FROM marschall/oracle-server-jre
 
 ADD apache-tomcat-8.0.14.tar.gz /opt
 ENV CATALINA_HOME /opt/apache-tomcat-8.0.14

@@ -1,7 +1,7 @@
 #FROM busybox:buildroot-2014.02
 FROM debian:wheezy
 # extracts the .tar.gz
-ADD ./jdk-8u25-linux-x64.tar.gz /opt
+ADD server-jre-8u25-linux-x64.tar.gz /opt
 
 ENV JAVA_HOME /opt/jdk1.8.0_25
 ENV PATH $PATH:$JAVA_HOME/bin
