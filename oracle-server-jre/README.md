@@ -6,3 +6,7 @@ Download Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Polic
 
 http://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html
 
+unzip jce_policy-8.zip
+
+docker build -t marschall/oracle-server-jre --rm oracle-server-jre
+
