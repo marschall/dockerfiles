@@ -1,6 +1,6 @@
-Download Java SE Development Kit 8
+Server JRE (Java SE Runtime Environment) 8 Downloads
 
-http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+http://www.oracle.com/technetwork/java/javase/downloads/server-jre8-downloads-2133154.html
 
 Download Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files 8 Download
 
