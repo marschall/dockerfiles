@@ -1,10 +1,9 @@
-#FROM busybox:buildroot-2014.02
-FROM debian:wheezy
+FROM busybox:ubuntu-14.04
 # extracts the .tar.gz
 ADD server-jre-8u25-linux-x64.tar.gz /opt
 
 ENV JAVA_HOME /opt/jdk1.8.0_25
-ENV PATH $PATH:$JAVA_HOME/bin
+ENV PATH ${PATH}:${JAVA_HOME}/bin
 
 # Add JCE Unlimited Strength Jurisdiction Policy Files
 # ADD only knows GZIP, not ZIP

@@ -10,3 +10,7 @@ unzip jce_policy-8.zip
 
 docker build -t marschall/oracle-server-jre --rm oracle-server-jre
 
+docker run -it --rm marschall/oracle-server-jre java -version
+
+Remove more things
+https://github.com/jeanblanchard/docker-busybox-java/blob/master/Dockerfile
