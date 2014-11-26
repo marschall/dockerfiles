@@ -1,3 +1,4 @@
-server-jre-8u25-linux-x64.tar.gz
+server-jre-*.tar.gz
+jdk*/
 jce_policy-8.zip
 unlimitedJCEPolicyJDK8/
