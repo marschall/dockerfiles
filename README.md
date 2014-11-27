@@ -20,3 +20,15 @@ When you are using direct buffers, make sure you allocate the appropriate amount
 Remove more things
 https://github.com/jeanblanchard/docker-busybox-java/blob/master/Dockerfile
 
+
+Running
+-------
+
+Start boot2dockerr with:
+
+    boot2docker start
+
+Set up in your shell with:
+
+    $(boot2docker shellinit)
+
