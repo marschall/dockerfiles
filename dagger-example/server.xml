@@ -20,7 +20,6 @@
      Documentation at /docs/config/server.html
  -->
 <Server port="8005" shutdown="SHUTDOWN">
-  <Listener className="org.apache.catalina.startup.VersionLoggerListener" />
   <!-- Prevent memory leaks due to use of particular java/javax APIs-->
   <Listener className="org.apache.catalina.core.JreMemoryLeakPreventionListener" />
   <Listener className="org.apache.catalina.mbeans.GlobalResourcesLifecycleListener" />
@@ -32,8 +31,9 @@
       type="javax.sql.DataSource"
       factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
       driverClassName="org.h2.Driver"
-      url="jdbc:h2:mem:dagger;INIT=create schema if not exists test\;runscript from '/opt/apache-tomcat/conf/schema.sql'\;runscript from '/opt/apache-tomcat/conf/data.sql';DB_CLOSE_DELAY=-1"
+      url="${jdbc.url}"
       minIdle="1"
+      maxIdle="10"
       initialSize="1"
       maxActive="10"
       maxWait="10000"

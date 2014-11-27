@@ -6,6 +6,6 @@ if [ $# -ne 1 ]
     exit 1
 fi
 
-docker exec $1 /opt/apache-tomcat/bin/catalina.sh stop
+docker exec -ti $1 /opt/apache-tomcat/bin/catalina.sh stop
 sleep 1
 docker rm $1

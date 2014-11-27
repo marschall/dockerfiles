@@ -28,5 +28,6 @@ if [ ! -f dagger-example/dependencies/null-jarscanner-1.0.0.jar ]
     mvn dependency:copy -Dartifact=com.github.marschall:null-jarscanner:1.0.0 -DoutputDirectory=$OUTPUT_FOLDER
 fi
 
+cp /usr/share/zoneinfo/Europe/Zurich dagger-example/
 
 docker build -t marschall/dagger-example --rm dagger-example
