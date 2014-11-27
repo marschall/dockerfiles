@@ -4,6 +4,8 @@ Dockerfiles
 Building
 --------
 
+You need to install [marschall/dagger-example](https://github.com/marschall/dagger-example).
+
     sh build-oracle-server-jre.sh
     sh build-tomcat.sh
     sh build-dagger-example.sh
