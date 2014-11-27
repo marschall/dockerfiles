@@ -32,3 +32,6 @@ Set up in your shell with:
 
     $(boot2docker shellinit)
 
+You'll have to edit `dagger.env` to contain the public IP of the docker image.
+
+

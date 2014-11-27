@@ -31,7 +31,7 @@ ENV CATALINA_OPTS -Xmx128m -Xms128m -Xss228k \
   -Dcom.sun.management.jmxremote.rmi.port=8081 \
   -Dcom.sun.management.jmxremote.ssl=false \
   -Dcom.sun.management.jmxremote.authenticate=false \
-  -Djava.rmi.server.hostname=192.168.59.103
+  -Djava.rmi.server.hostname=$RMI_SERVER_NAME
 
 # JMX port
 EXPOSE 8081
