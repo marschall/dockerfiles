@@ -8,6 +8,7 @@ COPY dependencies/ROOT.war ${CATALINA_HOME}/webapps/
 COPY schema.sql data.sql ${CATALINA_HOME}/conf/
 
 COPY server.xml ${CATALINA_HOME}/conf/server.xml
+COPY web.xml ${CATALINA_HOME}/conf/web.xml
 
 
 # ENV TZ=Europe/Zurich
