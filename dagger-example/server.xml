@@ -30,6 +30,20 @@
        Documentation at /docs/jndi-resources-howto.html
   -->
   <GlobalNamingResources>
+    <Resource name="jdbc/dagger"
+      auth="Container"
+      type="javax.sql.DataSource"
+      factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+      driverClassName="org.h2.Driver"
+      url="jdbc:h2:mem:dagger;INIT=create schema if not exists test\;runscript from '/opt/apache-tomcat/conf/schema.sql'\;runscript from '/opt/apache-tomcat/conf/data.sql';DB_CLOSE_DELAY=-1"
+      minIdle="1"
+      initialSize="1"
+      maxActive="10"
+      maxWait="10000"
+      jmxEnabled="true"
+      jdbcInterceptors="org.apache.tomcat.jdbc.pool.interceptor.ConnectionState;
+        org.apache.tomcat.jdbc.pool.interceptor.StatementFinalizer"/>
+  </GlobalNamingResources>
 
   <!-- A "Service" is a collection of one or more "Connectors" that share
        a single "Container" Note:  A "Service" is not itself a "Container",
