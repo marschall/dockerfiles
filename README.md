@@ -13,7 +13,7 @@ When you are using direct buffers, make sure you allocate the appropriate amount
 # http://wiki.apache.org/tomcat/FAQ/Logging
 # logrotate copytruncate
 - monitoring (heap dump, jmx remote, mission control)
-- db config
+- db config (env vars)
 - timezone in busybox
 - 
 

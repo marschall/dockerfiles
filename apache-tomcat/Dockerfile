@@ -24,7 +24,9 @@ RUN wget http://mirror.switch.ch/mirror/apache/dist/tomcat/tomcat-${TOMCAT_VERSI
 
 ENV CATALINA_HOME /opt/apache-tomcat
 
-# VOLUME ["/opt/apache-tomcat/logs/"]
+# ENV CATALINA_PID ${CATALINA_HOME}/tomcat.pid"
+
+VOLUME ["/opt/apache-tomcat/logs/"]
 
 EXPOSE 8080
 
