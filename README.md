@@ -1,11 +1,17 @@
 Dockerfiles
 ===========
 
+Building
+--------
+
+    sh build-oracle-server-jre.sh
+    sh build-tomcat.sh
+    sh build-dagger-example.sh
 
 Running
 -------
 
-Start boot2dockerr with:
+Start [boot2docker](http://boot2docker.io/) with:
 
     boot2docker start
 
@@ -15,7 +21,14 @@ Set up in your shell with:
 
 You'll have to edit `dagger.env` to contain the public IP of the docker image.
 
-Then JMX should work with $RMI_SERVER_NAME:8081
+Then remote JMX (and mission control) should work with `$RMI_SERVER_NAME:8081`
+
+    sh run-dagger-example.sh
+
+If you're running in the background you can stop the container with
+
+    sh stop-tomcat.sh CONTAINER
+
 
 DJCmd
 -----
