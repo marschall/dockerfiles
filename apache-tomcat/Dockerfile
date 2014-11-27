@@ -26,7 +26,7 @@ ENV CATALINA_HOME /opt/apache-tomcat
 
 # ENV CATALINA_PID ${CATALINA_HOME}/tomcat.pid"
 
-VOLUME ["/opt/apache-tomcat/logs/"]
+# VOLUME ["/opt/apache-tomcat/logs/"]
 
 EXPOSE 8080
 

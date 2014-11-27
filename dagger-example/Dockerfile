@@ -28,6 +28,7 @@ ENV CATALINA_OPTS -Xmx128m -Xms128m -Xss228k \
   -Djava.net.preferIPv4Stack=true \
   -Dcom.sun.management.jmxremote \
   -Dcom.sun.management.jmxremote.port=8081 \
+  -Dcom.sun.management.jmxremote.rmi.port=8081 \
   -Dcom.sun.management.jmxremote.ssl=false \
   -Dcom.sun.management.jmxremote.authenticate=false \
   -Djava.rmi.server.hostname=192.168.59.103
