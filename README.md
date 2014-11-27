@@ -1,6 +1,8 @@
 Dockerfiles
 ===========
 
+Various Dockerfiles currently all revolving around Java.
+
 Building
 --------
 
@@ -23,7 +25,7 @@ Set up in your shell with:
 
 You'll have to edit `dagger.env` to contain the public IP of the docker image.
 
-Then remote JMX (and mission control) should work with `$RMI_SERVER_NAME:8081`
+Then remote JMX (and Mission Control) should work with `$RMI_SERVER_NAME:8081`
 
     sh run-dagger-example.sh
 
