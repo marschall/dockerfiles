@@ -13,6 +13,10 @@ When you are using direct buffers, make sure you allocate the appropriate amount
 # http://wiki.apache.org/tomcat/FAQ/Logging
 # logrotate copytruncate
 - monitoring (heap dump, jmx remote, mission control)
-- shutdown (echo SHUTDOWN | nc localhost 8005)
 - db config
-- NULL jar-scanner
+- timezone in busybox
+- 
+
+Remove more things
+https://github.com/jeanblanchard/docker-busybox-java/blob/master/Dockerfile
+

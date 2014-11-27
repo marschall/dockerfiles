@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker run -ti -P marschall/dagger-example
+docker run -d -p 8080:8080 marschall/dagger-example
 

@@ -12,3 +12,4 @@ docker run -d -p 8080:8080 -v `pwd`/apache-tomcat/logs:/opt/apache-tomcat/logs m
 # stop with
 # docker exec 6882c4ff66c1 /opt/apache-tomcat/bin/catalina.sh stop
 
+
