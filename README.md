@@ -46,6 +46,15 @@ Issues
 
 `jmap` seems to be missing from Server JRE.
 
+Log Files
+---------
+
+Either mount a host folder (has to be an absolute path, can use `pwd` tricks to support relative paths)
+
+    -v /host/folder/logs:/opt/apache-tomcat/logs
+
+Or use a data container
+
 Todo
 ----
 http://tomcat.apache.org/tomcat-8.0-doc/config/http.html#NIO2_specific_configuration
