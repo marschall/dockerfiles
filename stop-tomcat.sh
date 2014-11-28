@@ -2,7 +2,7 @@
 
 if [ $# -ne 1 ]
   then
-    echo "Usage $0 <dockerid>"
+    echo "Usage $0 CONTAINER"
     exit 1
 fi
 

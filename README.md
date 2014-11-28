@@ -41,6 +41,10 @@ DJCmd
 
 If you don't pass any args `help` is executed.
 
+Issues
+------
+
+`jmap` seems to be missing from Server JRE.
 
 Todo
 ----
@@ -54,6 +58,6 @@ When you are using direct buffers, make sure you allocate the appropriate amount
 - logging (http://wiki.apache.org/tomcat/FAQ/Logging)
   - logrotate copytruncate
 
-Remove more things
+Inspiration taken from
 https://github.com/jeanblanchard/docker-busybox-java/blob/master/Dockerfile
 
