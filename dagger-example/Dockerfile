@@ -11,8 +11,9 @@ COPY web.xml ${CATALINA_HOME}/conf/web.xml
 
 # https://gist.github.com/mclark/11434166
 ENV TZ Europe/Zurich
+ENV TIMEZONE Europe/Zurich
+RUN echo $TIMEZONE > /etc/timezone
 COPY Zurich /etc/localtime
-COPY timezone /etc/timezone
 
 # Use /dev/urandom to intialize PRNG
 # http://wiki.apache.org/tomcat/HowTo/FasterStartUp#Entropy_Source
