@@ -55,6 +55,11 @@ Either mount a host folder (has to be an absolute path, can use `pwd` tricks to 
 
 Or use a data container
 
+    sh create-data-container.sh
+    --volumes-from dagger-example-logdata
+
+You can extract the logs with `backup-data-container.sh`.
+
 Todo
 ----
 http://tomcat.apache.org/tomcat-8.0-doc/config/http.html#NIO2_specific_configuration
