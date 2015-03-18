@@ -31,3 +31,4 @@ fi
 cp /usr/share/zoneinfo/Europe/Zurich dagger-example/
 
 docker build -t marschall/dagger-example --rm dagger-example
+
