@@ -29,5 +29,5 @@ VOLUME ["/opt/apache-tomcat/logs"]
 EXPOSE 8080
 
 # Set the default command to run on boot
-CMD ["${CATALINA_HOME}/bin/catalina.sh", "run"]
+CMD ["/opt/apache-tomcat/bin/catalina.sh", "run"]
 
