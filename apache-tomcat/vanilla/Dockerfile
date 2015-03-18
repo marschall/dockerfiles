@@ -18,9 +18,7 @@ RUN wget http://mirror.switch.ch/mirror/apache/dist/tomcat/tomcat-${TOMCAT_VERSI
         /opt/apache-tomcat/webapps/examples \
         /opt/apache-tomcat/webapps/host-manager \
         /opt/apache-tomcat/webapps/manager && \
-    rm /opt/apache-tomcat/lib/annotations-api.jar \
-        /opt/apache-tomcat/lib/tomcat-dbcp.jar \
-        /opt/apache-tomcat/lib/tomcat-i18n-*.jar
+    rm /opt/apache-tomcat/lib/tomcat-i18n-*.jar
 
 ENV CATALINA_HOME /opt/apache-tomcat
 

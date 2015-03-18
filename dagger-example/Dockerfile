@@ -1,4 +1,4 @@
-FROM marschall/apache-tomcat
+FROM marschall/apache-tomcat-lightweight
 
 ENV H2_VERSION 1.4.182
 
