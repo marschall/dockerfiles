@@ -13,5 +13,6 @@ RUN wget http://dlc.sun.com.edgesuite.net/glassfish/${GLASSFISH_VERSION}/release
 EXPOSE 8080
 
 # Set the default command to run on boot
-CMD ["/opt/glassfish/bin/asadmin", "start-domain"]
+# Because asadmin by default will exit after start-domain, make sure to add --verbose=true to keep the process running in foreground. This way, Docker will keep it running.
+CMD ["/opt/glassfish/bin/asadmin", "start-domain", "--verbose=true"]
 
