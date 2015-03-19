@@ -15,12 +15,6 @@ ENV TIMEZONE Europe/Zurich
 RUN echo $TIMEZONE > /etc/timezone
 COPY Zurich /etc/localtime
 
-# Use /dev/urandom to intialize PRNG
-# http://wiki.apache.org/tomcat/HowTo/FasterStartUp#Entropy_Source
-# http://openjdk.java.net/jeps/123
-# https://docs.oracle.com/javase/8/docs/technotes/guides/security/enhancements-8.html
-COPY java.security ${JAVA_HOME}/jre/lib/security/java.security
-
 # -Xverify:none \
 # -XX:+PrintFlagsFinal \
 ENV CATALINA_OPTS -Xmx128m -Xms128m -Xss228k \
