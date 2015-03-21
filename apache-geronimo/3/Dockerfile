@@ -3,8 +3,8 @@ FROM marschall/oracle-server-jre
 ENV GERONIMO_VERSION 3.0.1
 ENV GERONIMO_FULL_VERSION tomcat7-javaee6-${GERONIMO_VERSION}
 
-# download wildfly 
-# extract wildfly 
+# download geronimo
+# extract geronimo
 
 RUN wget http://www.pirbot.com/mirrors/apache/geronimo/${GERONIMO_VERSION}/geronimo-${GERONIMO_FULL_VERSION}-bin.tar.gz && \
     tar xzf geronimo-${GERONIMO_FULL_VERSION}-bin.tar.gz -C /opt && \
