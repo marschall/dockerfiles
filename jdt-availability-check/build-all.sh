@@ -20,14 +20,11 @@ if [ ! -f ~/.m2/repository/com/github/marschall/jdt-availability-check/${PROJECT
 
 fi
 
-#docker build -t marschall/jdt-availability-check-tomcat    --rm tomcat
-#docker build -t marschall/jdt-availability-check-tomee     --rm tomee
-#docker build -t marschall/jdt-availability-check-wildfly   --rm wildfly
-#docker build -t marschall/jdt-availability-check-glassfish --rm glassfish
-#docker build -t marschall/jdt-availability-check-geronimo  --rm geronimo
-#docker build -t marschall/jdt-availability-check-resin     --rm resin
+docker build -t marschall/jdt-availability-check-tomcat    --rm tomcat    && \
+docker build -t marschall/jdt-availability-check-tomee     --rm tomee     && \
+docker build -t marschall/jdt-availability-check-wildfly   --rm wildfly   && \
+docker build -t marschall/jdt-availability-check-glassfish --rm glassfish && \
+docker build -t marschall/jdt-availability-check-geronimo  --rm geronimo  && \
+docker build -t marschall/jdt-availability-check-resin     --rm resin     && \
 docker build -t marschall/jdt-availability-check-jetty     --rm jetty
-
-
-
 
