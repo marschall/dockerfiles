@@ -1,4 +1,4 @@
-FROM marschall/oracle-server-jre
+FROM marschall/oracle-server-jre:8
 
 ENV TOMEE_VERSION 1.7.1
 ENV TOMEE_PROFILE webprofile
@@ -6,10 +6,10 @@ ENV TOMEE_PROFILE webprofile
 # download tomee
 # extract tomee
 
-RUN wget http://www.pirbot.com/mirrors/apache/tomee/tomee-${TOMEE_VERSION}/apache-tomee-${TOMEE_VERSION}-${TOMEE_PROFILE}.tar.gz && \
+RUN wget http://mirror.switch.ch/mirror/apache/dist/tomee/tomee-${TOMEE_VERSION}/apache-tomee-${TOMEE_VERSION}-${TOMEE_PROFILE}.tar.gz && \
     tar xzf apache-tomee-${TOMEE_VERSION}-${TOMEE_PROFILE}.tar.gz -C /opt && \
     rm apache-tomee-${TOMEE_VERSION}-${TOMEE_PROFILE}.tar.gz && \
-    ln -s /opt/apache-tomee-${TOMEE_PROFILE}-${TOMEE_VERSION} /opt/apache-tomee \
+    ln -s /opt/apache-tomee-${TOMEE_PROFILE}-${TOMEE_VERSION} /opt/apache-tomee && \
     rm -rf /opt/apache-tomee/webapps/ROOT \
         /opt/apache-tomee/webapps/docs \
         /opt/apache-tomee/webapps/tomee \
