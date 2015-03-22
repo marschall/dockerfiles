@@ -1,4 +1,4 @@
-FROM marschall/oracle-server-jre
+FROM marschall/oracle-server-jre:8
 
 ENV JETTY_BRANCH stable-9
 ENV JETTY_VERSION 9.2.10.v20150310

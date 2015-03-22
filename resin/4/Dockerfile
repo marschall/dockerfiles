@@ -1,4 +1,4 @@
-FROM marschall/oracle-server-jre
+FROM marschall/oracle-server-jre:8
 
 ENV RESIN_VERSION 4.0.43
 

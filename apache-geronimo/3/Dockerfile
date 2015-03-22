@@ -1,4 +1,4 @@
-FROM marschall/oracle-server-jre
+FROM marschall/oracle-server-jre:7
 
 ENV GERONIMO_VERSION 3.0.1
 ENV GERONIMO_FULL_VERSION tomcat7-javaee6-${GERONIMO_VERSION}

@@ -1,4 +1,4 @@
-FROM marschall/oracle-server-jre
+FROM marschall/oracle-server-jre:8
 
 ENV GLASSFISH_VERSION 4.1
 

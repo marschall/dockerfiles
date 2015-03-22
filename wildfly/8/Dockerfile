@@ -1,4 +1,4 @@
-FROM marschall/oracle-server-jre
+FROM marschall/oracle-server-jre:8
 
 ENV WILDFLY_VERSION 8.2.0.Final
 
