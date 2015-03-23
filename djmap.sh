@@ -10,3 +10,4 @@ if [ $# -ne 1 ]
 fi
 
 docker exec $1 jmap -heap 1
+
