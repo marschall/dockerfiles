@@ -20,6 +20,10 @@ RUN wget http://mirror.switch.ch/mirror/apache/dist/tomcat/tomcat-${TOMCAT_VERSI
         /opt/apache-tomcat/webapps/manager && \
     rm /opt/apache-tomcat/lib/tomcat-i18n-*.jar
 
+# disable watching for changed
+# enable parallel class loading
+COPY context.xml /opt/apache-tomcat/conf/
+
 ENV CATALINA_HOME /opt/apache-tomcat
 
 # ENV CATALINA_PID ${CATALINA_HOME}/tomcat.pid"
