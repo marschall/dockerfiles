@@ -35,4 +35,7 @@
     <!--
     <Valve className="org.apache.catalina.valves.CometConnectionManagerValve" />
     -->
+
+    <Loader loaderClass="org.apache.catalina.loader.ParallelWebappClassLoader" />
+
 </Context>
