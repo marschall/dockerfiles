@@ -1,8 +1,8 @@
 #!/bin/bash
 
 JAVA_VERSION_MAJOR=8
-JAVA_VERSION_MINOR=45
-JAVA_VERSION_BUILD=14
+JAVA_VERSION_MINOR=51
+JAVA_VERSION_BUILD=16
 
 if [ ! -f "oracle-server-jre/8/server-jre-${JAVA_VERSION_MAJOR}u${JAVA_VERSION_MINOR}-linux-x64.tar.gz" ]
   then
