@@ -1,6 +1,6 @@
 FROM marschall/oracle-server-jre:8
 
-ENV TOMEE_VERSION 1.7.1
+ENV TOMEE_VERSION 1.7.2
 ENV TOMEE_PROFILE webprofile
 
 # download tomee
