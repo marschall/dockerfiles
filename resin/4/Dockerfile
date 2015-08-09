@@ -1,6 +1,6 @@
 FROM marschall/oracle-server-jre:8
 
-ENV RESIN_VERSION 4.0.43
+ENV RESIN_VERSION 4.0.44
 
 # download resin
 # extract resin 
