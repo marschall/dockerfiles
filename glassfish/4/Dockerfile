@@ -5,7 +5,7 @@ ENV GLASSFISH_VERSION 4.1
 # download glassfish
 # extract glassfish
 
-RUN wget http://dlc.sun.com.edgesuite.net/glassfish/${GLASSFISH_VERSION}/release/glassfish-${GLASSFISH_VERSION}.zip && \
+RUN wget http://download.java.net/glassfish/${GLASSFISH_VERSION}/release/glassfish-${GLASSFISH_VERSION}.zip && \
     unzip glassfish-${GLASSFISH_VERSION}.zip -d /opt && \
     rm glassfish-${GLASSFISH_VERSION}.zip && \
     ln -s /opt/glassfish4 /opt/glassfish

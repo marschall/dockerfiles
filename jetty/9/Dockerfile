@@ -1,7 +1,7 @@
 FROM marschall/oracle-server-jre:8
 
 ENV JETTY_BRANCH stable-9
-ENV JETTY_VERSION 9.3.2.v20150730
+ENV JETTY_VERSION 9.3.3.v20150827
 
 # download jetty 
 # extract jetty 

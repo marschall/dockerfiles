@@ -6,6 +6,7 @@
 ./build-geronimo.sh && \
 ./build-glassfish.sh && \
 ./build-jetty.sh && \
-./build-wildfly.sh && \
+./build-wildfly-8.sh && \
+./build-wildfly-9.sh && \
 ./build-dagger-example.sh
 

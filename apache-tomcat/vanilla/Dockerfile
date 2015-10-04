@@ -1,7 +1,7 @@
 FROM marschall/oracle-server-jre:8
 
 ENV TOMCAT_VERSION_MAJOR 8
-ENV TOMCAT_VERSION 8.0.24
+ENV TOMCAT_VERSION 8.0.27
 
 # download tomcat
 # extract tomcat
