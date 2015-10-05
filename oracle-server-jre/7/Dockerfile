@@ -1,4 +1,4 @@
-FROM busybox:ubuntu-14.04
+FROM busybox:1.21-ubuntu
 
 ENV JAVA_VERSION_MAJOR 7
 ENV JAVA_VERSION_MINOR 79
