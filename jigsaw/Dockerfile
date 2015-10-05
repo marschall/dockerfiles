@@ -1,4 +1,4 @@
-FROM busybox:ubuntu-14.04
+FROM debian:jessie
 
 ENV JAVA_VERSION_MAJOR 9
 ENV JAVA_VERSION_MINOR 60
