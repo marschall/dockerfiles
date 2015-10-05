@@ -8,5 +8,6 @@
 ./build-jetty.sh && \
 ./build-wildfly-8.sh && \
 ./build-wildfly-9.sh && \
+./build-wildfly-10.sh && \
 ./build-dagger-example.sh
 
