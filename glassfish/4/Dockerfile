@@ -1,6 +1,6 @@
 FROM marschall/oracle-server-jre:8
 
-ENV GLASSFISH_VERSION 4.1
+ENV GLASSFISH_VERSION 4.1.1
 
 # download glassfish
 # extract glassfish
