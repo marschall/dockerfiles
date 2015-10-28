@@ -1,6 +1,6 @@
 FROM marschall/oracle-server-jre:8
 
-ENV WILDFLY_VERSION 9.0.1.Final
+ENV WILDFLY_VERSION 9.0.2.Final
 
 # download wildfly 
 # extract wildfly 
