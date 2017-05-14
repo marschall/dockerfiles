@@ -1,14 +1,11 @@
 FROM marschall/oracle-server-jre:8
 
-ENV RESIN_VERSION 4.0.44
+ENV RESIN_VERSION 4.0.51
 
-# download resin
 # extract resin 
+ADD resin-${RESIN_VERSION}.tar.gz /opt
 
-RUN wget http://caucho.com/download/resin-${RESIN_VERSION}.tar.gz && \
-    tar xzf resin-${RESIN_VERSION}.tar.gz -C /opt && \
-    rm resin-${RESIN_VERSION}.tar.gz && \
-    ln -s /opt/resin-${RESIN_VERSION} /opt/resin
+RUN ln -s /opt/resin-${RESIN_VERSION} /opt/resin
 
 ENV RESIN_HOME /opt/resin
 
