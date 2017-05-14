@@ -1,4 +1,4 @@
-FROM marschall/apache-tomcat-vanilla:9
+FROM marschall/apache-tomcat-vanilla:8
 
 # remove JARs we don't want
 
