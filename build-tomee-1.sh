@@ -3,7 +3,6 @@
 TOMEE_VERSION=1.7.4
 TOMEE_PROFILE=webprofile
 
-
 if [ ! -f "apache-tomee/1/apache-tomee-${TOMEE_VERSION}-${TOMEE_PROFILE}.tar.gz" ]
   then
     curl -LO "http://repo.maven.apache.org/maven2/org/apache/openejb/apache-tomee/${TOMEE_VERSION}/apache-tomee-${TOMEE_VERSION}-${TOMEE_PROFILE}.tar.gz"
