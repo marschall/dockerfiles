@@ -15,14 +15,6 @@ You need to install [marschall/dagger-example](https://github.com/marschall/dagg
 Running
 -------
 
-Start [boot2docker](http://boot2docker.io/) with:
-
-    boot2docker start
-
-Set up in your shell with:
-
-    $(boot2docker shellinit)
-
 You'll have to edit `dagger.env` to contain the public IP of the docker image.
 
 Then remote JMX (and Mission Control) should work with `$RMI_SERVER_NAME:8081`
