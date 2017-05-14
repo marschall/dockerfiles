@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 TOMEE_VERSION=7.0.2
 TOMEE_PROFILE=webprofile

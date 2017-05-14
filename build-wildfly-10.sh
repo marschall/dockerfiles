@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 WILDFLY_VERSION=10.1.0.Final
 

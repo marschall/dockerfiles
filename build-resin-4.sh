@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 RESIN_VERSION=4.0.51
 

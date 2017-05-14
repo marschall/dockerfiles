@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 TOMCAT_VERSION_MAJOR=9
 TOMCAT_VERSION=9.0.0.M21

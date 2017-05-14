@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 JAVA_VERSION_MAJOR=7
 JAVA_VERSION_MINOR=79

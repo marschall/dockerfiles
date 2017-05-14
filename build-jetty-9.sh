@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 JETTY_BRANCH=stable-9
 JETTY_VERSION=9.4.5.v20170502

@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 MAVEN_OPTS="-Xms32m -Xmx32m -Xss160k -Xnoverify"
 
