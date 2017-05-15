@@ -4,7 +4,7 @@ ENV GLASSFISH_VERSION 5.0
 
 # download glassfish
 # extract glassfish
-ADD glassfish4/ /opt
+ADD glassfish4/ /opt/glassfish4
 
 RUN ln -s /opt/glassfish4 /opt/glassfish
 
