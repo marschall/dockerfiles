@@ -2,10 +2,16 @@ FROM ubuntu:17.04
 
 ADD build.sh /
 
-sudo apt-get install \
-  mercurial
+# a lot taken from
+# http://arturmkrtchyan.com/building-openjdk-9-on-ubuntu
+# configure also complains
+
+RUN apt-get update && apt-get install -y \
+  mercurial \
+  gzip \
 # bootstrap JVM
-  openjdk-9-jre-headless
+# oracle-java9-installer
+  openjdk-9-jre-headless \
 # X11 libraries
   libx11-dev libxext-dev \
   libxrender-dev libxtst-dev libxt-dev \
@@ -23,3 +29,4 @@ env LANG C
 VOLUME ["/jdk"]
 
 CMD ["sh", "/build.sh"]
+
