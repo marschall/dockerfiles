@@ -2,7 +2,7 @@
 set -e
 
 JAVA_VERSION_MAJOR=7
-JAVA_VERSION_MINOR=79
+JAVA_VERSION_MINOR=80
 JAVA_VERSION_BUILD=15
 
 if [ ! -f "oracle-server-jre/7/server-jre-${JAVA_VERSION_MAJOR}u${JAVA_VERSION_MINOR}-linux-x64.tar.gz" ]

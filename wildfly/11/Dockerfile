@@ -1,6 +1,6 @@
 FROM marschall/oracle-server-jre:8
 
-ENV WILDFLY_VERSION 11.0.0.Alpha1
+ENV WILDFLY_VERSION 11.0.0.Beta1
 
 # extract wildfly
 ADD wildfly-${WILDFLY_VERSION}.tar.gz /opt

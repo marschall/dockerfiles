@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-WILDFLY_VERSION=11.0.0.Alpha1
+WILDFLY_VERSION=11.0.0.Beta1
 
 if [ ! -f "wildfly/11/wildfly-${WILDFLY_VERSION}.tar.gz" ]
   then
