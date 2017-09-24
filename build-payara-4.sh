@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-PAYARA_VERSION=4.1.1.171.1
+PAYARA_VERSION=4.1.2.173
 
 if [ ! -f "payara/4/payara-${PAYARA_VERSION}.zip" ]
   then

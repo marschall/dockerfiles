@@ -2,7 +2,7 @@
 set -e
 
 TOMCAT_VERSION_MAJOR=8
-TOMCAT_VERSION=8.5.15
+TOMCAT_VERSION=8.5.20
 
 if [ ! -f "apache-tomcat/8/vanilla/apache-tomcat-${TOMCAT_VERSION}.tar.gz" ]
   then

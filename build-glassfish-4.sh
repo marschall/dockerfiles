@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-GLASSFISH_VERSION=4.1.1
+GLASSFISH_VERSION=4.1.2
 
 if [ ! -f "glassfish/4/glassfish-${GLASSFISH_VERSION}.zip" ]
   then

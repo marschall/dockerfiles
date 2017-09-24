@@ -4,9 +4,9 @@ ENV GLASSFISH_VERSION 5.0
 
 # download glassfish
 # extract glassfish
-ADD glassfish4/ /opt/glassfish4
+ADD glassfish5/ /opt/glassfish5
 
-RUN ln -s /opt/glassfish4 /opt/glassfish
+RUN ln -s /opt/glassfish5 /opt/glassfish
 
 EXPOSE 8080
 

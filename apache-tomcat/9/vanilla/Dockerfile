@@ -1,7 +1,7 @@
 FROM marschall/oracle-server-jre:8
 
 ENV TOMCAT_VERSION_MAJOR 9
-ENV TOMCAT_VERSION 9.0.0.M21
+ENV TOMCAT_VERSION 9.0.0.M26
 
 # extract tomcat
 # remove all default web apps

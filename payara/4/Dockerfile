@@ -1,6 +1,6 @@
 FROM marschall/oracle-server-jre:8
 
-ENV PAYARA_VERSION 4.1.1.171.1
+ENV PAYARA_VERSION 4.1.2.173
 
 # extract glassfish
 ADD payara41 /opt/payara41

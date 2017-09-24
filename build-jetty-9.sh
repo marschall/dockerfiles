@@ -1,8 +1,7 @@
 #!/bin/bash
 set -e
 
-JETTY_BRANCH=stable-9
-JETTY_VERSION=9.4.5.v20170502
+JETTY_VERSION=9.4.7.v20170914
 
 if [ ! -f "jetty/9/jetty-distribution-${JETTY_VERSION}.tar.gz" ]
   then

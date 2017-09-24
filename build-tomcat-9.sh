@@ -2,7 +2,7 @@
 set -e
 
 TOMCAT_VERSION_MAJOR=9
-TOMCAT_VERSION=9.0.0.M21
+TOMCAT_VERSION=9.0.0.M26
 
 if [ ! -f "apache-tomcat/9/vanilla/apache-tomcat-${TOMCAT_VERSION}.tar.gz" ]
   then
